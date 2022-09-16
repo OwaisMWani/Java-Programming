@@ -8,14 +8,14 @@ public class Arrays2D {
 	
 	int[][] lotteryCard2 = new int [3][3]; //[row][column]
 	lotteryCard2[0][0]=20;
-	lotteryCard2[0][1]=20;
-	lotteryCard2[0][2]=20;
-	lotteryCard2[1][0]=20;
-	lotteryCard2[1][1]=20;
-	lotteryCard2[1][2]=20;
-	lotteryCard2[2][0]=20;
-	lotteryCard2[2][1]=20;
-	lotteryCard2[2][2]=20;
+	lotteryCard2[0][1]=15;
+	lotteryCard2[0][2]=7;
+	lotteryCard2[1][0]=11;
+	lotteryCard2[1][1]=19;
+	lotteryCard2[1][2]=27;
+	lotteryCard2[2][0]=32;
+	lotteryCard2[2][1]=17;
+	lotteryCard2[2][2]=91;
 	
 	System.out.println("--------------------- \n \n Printing the entire lotteryCard rowwise:");
 	
