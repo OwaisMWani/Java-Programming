@@ -10,9 +10,13 @@ public class MainMethod {
 		System.out.println(args[1]);//arguments can be added under Run Configuration Tab 	(Eclipse)
 		//To add args in a terminal, type: java <name of class containing main> <args>
 		String[] s = {"hello","hi","hey"}; //Creating String Array s with 3 strings
-		saySomething(s);//Calling saySomething method
+		
+		Method say=new Method();//Creating an object from the Method class
+		say.saySomething(s);//Calling saySomething method
 	}
-	public static void saySomething(String[] s){     //Creating saySomething method  
+}
+	class Method{
+	public void saySomething(String[] s){     //Creating saySomething method  
 		System.out.println(s[0]+" "+s[1]+" "+s[2]);
 	}
 	
