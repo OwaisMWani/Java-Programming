@@ -1,0 +1,3 @@
+This is a file made through java code! We are inside text file
+on second line
+on third line
