@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.util.Scanner;
 import java.io.IOException;
-public class FileReader {
+public class FileReadWrite {
 	public static void main(String[] args) throws IOException{
 		Reader read=new Reader();
 		Writer write=new Writer();
